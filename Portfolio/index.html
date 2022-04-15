@@ -3,59 +3,121 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="imagenes/proa.ico">
 	<title>Carpeta</title>
 </head>
 <body>
-	<h1>Primer carpeta</h1>
-	<div>
-		<h2>Presentacion</h2>
-		<p>Es la <b>primera</b> pagina que estoy creando con la finalidad de <b>aprender</b> de una vez por todas.<br>En caso de que quieras saber mas sobre mi, haz <a href="https://facebook.com/luquitas9/">click aqui</a><br> Tambien podes hacer <a href="https://studio.youtube.com/channel/UCQTZHqF7a1pMgA39j5OPtvA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_BLANK">click aqui</a>
-		</p>
-		<h2>Aptitudes</h2>
-		<ul>
-			<li>Compromiso</li>
-			<li>Constancia</li>
-			<li>Tenacidad</li>
-			<li>Libre</li>
-			<li>Jesusista</li>
-		</ul>
-		<p>
-			<h2>Yo:</h2>
-			<img src="imagenes/lucas.jpeg">
-		</p>
-		<p>
-			<h2>Mas de mi:</h2>
-		</p>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="micuenta.html">Mi cuenta</a></li>
+				<li><a href="nosotros.html">Sobre nosotros</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Este es el Inicio</h1>
+	<article>
+		<section id="Presentacion">
+			<h2>Presentacion</h2>
+			<p>Es la <b>primera</b> pagina que estoy creando con la finalidad de <b>aprender</b> de una vez por todas.<br>En caso de que quieras saber mas sobre mi, haz <a href="https://facebook.com/luquitas9/">click aqui</a><br> Tambien podes hacer <a href="https://studio.youtube.com/channel/UCQTZHqF7a1pMgA39j5OPtvA/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%	22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" target="_BLANK">click aqui</a>
+			</p>
+			<h3>
+				La mejor musica haciendo <a href="#resurrecion">click aquí</a>
+			</h3>	
+			<h2>Aptitudes</h2>
+			<ul>
+				<li>Compromiso</li>
+				<li>Constancia</li>
+				<li>Tenacidad</li>
+				<li>Libre</li>
+				<li>Jesusista</li>
+			</ul>
+			<p>
+				<h2>Yo:</h2>
+				<img src="imagenes/lucas.jpeg" alt="Lucas Lara Martinez" title="Futuro Programador">
+			</p>
+		</section>
+		<section id="masdemi">
+			<p>
+				<h2>Mas de mi:</h2>
+			</p>
 	
-		<audio controls>
-    		<source src="setumivision+oracion.mp3" type="audio/mp3">
-		</audio>
+			<audio controls>
+    			<source src="audio/setumivision+oracion.mp3" type="audio/mp3">
+			</audio>
 
-		<video controls>
-  			<source src="videos/Resurrección - Himnos 2.mp4">
-		</video>
-	</div>
-	<h1>Servicios</h1>
-	<div>
-		<h3>Construccion de confianza, resultados sostenibles</h3>
+			<video controls id="resurrecion">
+  				<source src="videos/Resurrección - Himnos 2.mp4">
+			</video>
+		</section>
+		<section id="servicios">
+		<h1>Servicios</h1>
+		<div>
+			<h3>Construccion de confianza, resultados sostenibles</h3>
+			<p>
+				Podes consultar una cotizacion a la medida de tus necesidades completando los sigueintes datos
+			</p>
+			<form>
+				<input type="text" required="">
+				<input type="number" required="">
+				<input type="password" required="">
+				<input type="email" required="">
+				<input type="color" required="">
+				<input type="range" min="0" max="5">
+				<input type="date" required="">
+				<input type="time" required="">
+				<input type="button" value="confirmar">
+				<input type="submit">
+				<textarea readonly ="">Por favor, completa todos los datos requeridos</textarea> 
+			</form>
+		</section>
+	</article>
+	<aside>
+		<h2>Más información</h2>
 		<p>
-			Podes consultar una cotizacion a la medida de tus necesidades completando los sigueintes datos
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum et totam tenetur molestias minus, sunt aspernatur temporibus! Asperiores harum ratione voluptate delectus! Reiciendis cum at sed delectus atque soluta facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum et totam tenetur molestias minus, sunt aspernatur temporibus! Asperiores harum ratione voluptate delectus! Reiciendis cum at sed delectus atque soluta facere!Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum et totam tenetur molestias minus, sunt aspernatur temporibus! Asperiores harum ratione voluptate delectus! Reiciendis cum at sed delectus atque soluta facere!
 		</p>
-		<form>
-			<input type="text" required="">
-			<input type="number" required="">
-			<input type="password" required="">
-			<input type="email" required="">
-			<input type="color" required="">
-			<input type="range" min="0" max="5">
-			<input type="date" required="">
-			<input type="time" required="">
-			<input type="button" value="confirmar">
-			<input type="submit">
-			<textarea readonly ="">Por favor, completa todos los datos requeridos</textarea> 
-		</form>
-
-	</div>
+		<table>
+			<tr>
+				<td><b>Familia</b></td>
+				<td><b>Nombre</b></td>
+				<td><b>Apellido</b></td>
+				<td><b>Edad</b></td>
+			</tr>
+			<tr>
+				<td>Padre</td>
+				<td>Victor</td>
+				<td>Lara</td>
+				<td>55</td>
+			</tr>
+			<tr>
+				<td>Madre</td>
+				<td>Bettina</td>
+				<td>Martinez</td>
+				<td>54</td>
+			</tr>
+			<tr>
+				<td>Hermana</td>
+				<td>Victoria</td>
+				<td>Lara Martinez</td>
+				<td>31</td>
+			</tr>
+			<tr>
+				<td>Yo</td>
+				<td>Lucas</td>
+				<td>Lara Martinez</td>
+				<td>32</td>
+			</tr>
+		</table>
+	</aside>
+	<footer>
+		<h4>Copyright, todos los derechos reservados</h4>
+		<p>Seguinos en nuestras <b>redes</b></p>
+		<a href="https://www.facebook.com/luquitas9/">Facebook</a>
+		<a href="https://www.facebook.com/luquitas9/">Facebook</a>
+		<a href="https://www.facebook.com/luquitas9/">Facebook</a>
+	</footer>
 
 
 </body>
